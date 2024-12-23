@@ -41,9 +41,3 @@ body {
 .gallery-image:hover {
   transform: scale(1.05);
 }
-
-.modal-img {
-  width: 1112px;
-  height: 640px;
-  display: block;
-}
