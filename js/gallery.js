@@ -87,7 +87,7 @@ imagesGalleryList.addEventListener('click', event => {
   if (event.target.nodeName !== 'IMG') {
     return;
   }
-
+// користувач клікнув на картинку і ми маємо доступ до її атрибутів
   const imageEl = event.target.dataset.source;
 
   const modalWindowInstance = basicLightbox.create(
